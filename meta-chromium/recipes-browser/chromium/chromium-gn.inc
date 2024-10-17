@@ -16,7 +16,6 @@ B = "${S}/${OUTPUT_DIR}"
 # Non-specific patches.
 SRC_URI += "\
     file://0001-Drop-GN-compiler-settings-conflicting-with-OE.patch \
-    file://0002-v8-qemu-wrapper.patch \
     file://0003-wrapper-extra-flags.patch \
     file://0004-Delete-compiler-options-not-available-in-release-ver.patch \
     file://0005-avoid-link-latomic-failure-on-CentOS-8-host.patch \
